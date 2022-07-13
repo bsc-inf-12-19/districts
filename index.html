@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <title>Know Malawi by district</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" href = "fontawesome-free-5.15.4-web/css/all.css">
+<link rel = "stylesheet" href = "fontawesome-free-5.15.4-web/svgs/solid">
+<style>
+    h1{
+        color:darkblue;
+        position:fixed ;
+    }
+    form{
+        text-align: center;
+        position: fixed;
+    }
+    input{
+        width:250px;
+        height:30px;
+    }
+    button{
+        height:36px;
+    }
+    h5{
+        text-align: center;
+        color:darkblue;
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+    i{
+        margin-left: 20px;
+        font-size: 30px;
+        color:darkblue;
+    }
+    input{
+        width:200px;
+    }
+</style>
+<body>
+    <h1>MALAWI DISTRICTS</h1>
+    <br><br><br><br>
+    <form>
+    <input type = "text" id = "demo1" placeholder="Type district name">
+    <button style = "color:white; background-color: darkblue;" onclick = "myinfo()">Search</button>
+</form>
+<br><br>
+</body>
+<script>
+    function myinfo(){
+    var name = document.getElementById("demo1").value
+    if(name == "blantyre" || name == "Blantyre" || name == "BLANTYRE"){
+        document.write("Blantyre is the commecial and industrial city of malawi. It is located in the southern part of Malawi. It was named by Dr David Livingstone after a small town of scotland where he was born.");
+    }
+    else if(name =="lilongwe" || name == "Lilongwe" || name == "LILONGWE"){
+        document.write("Lilongwe is the largets city and the capital of Malawi. It is located in the central part of Malawi. It officially became capital back in the year of 1970.")
+    }
+    else if(name == "ntchisi" || name == "Ntchisi" || name == "NTCHISI"){
+        document.write("Ntchisi")
+    }
+    else if(name == "zomba" || name == "Zomba" || name == "ZOMBA"){
+        document.write("Zomba")
+    }
+    else if(name == "likoma" || name == "Likoma" || name == "LIKOMA"){
+        document.write("Likoma")
+    }
+    else if(name == "balaka" || name == "Balaka" || name == "BALAKA"){
+        document.write("Balaka")
+    }
+    else if(name == "kasungu" || name == "Kasungu" || name == "KASUNGU"){
+        document.write("kasungu")
+    }
+    else if(name == "ntcheu" || name == "Ntcheu" || name == "NTCHEU"){
+        document.write("Ntcheu")
+    }
+    else if(name == "dedza" || name == "Dedza" || name == "DEDZA"){
+        document.write("Dedza")
+    }
+    else if(name == "mwanza" || name == "Mwanza" || name == "MWANZA"){
+        document.write("Mwanza")
+    }
+    else if(name == "karonga" || name == "Karonga" || name == "KARONGA"){
+        document.write("Karonga")
+    }
+    else if(name == "machinga" || name == "Machinga" || name == "MACHINGA"){
+        document.write("Machinga")
+    }
+    else if(name == "mangochi" || name == "Mangochi" || name == "MANGOCHI"){
+        document.write("Mangochi")
+    }
+    else if(name == "mchinji" || name == "Mchinji" || name == "MCHINJI"){
+        document.write("Mchinji")
+    }
+    else if(name == "nthyolo" || name == "Nthyolo" || name == "NTYOLO"){
+        document.write("Nthyolo")
+    }
+    else if(name == "mulanje" || name == "Mulanje" || name == "MULANJE"){
+        document.write("Mulanje")
+    }
+    else if(name == "chikwawa" || name == "Chikwawa" || name == "CHIKWAWA"){
+        document.write("Chikwawa")
+    }
+    else if(name == "phalombe" || name == "Phalombe" || name == "PHALOMBE"){
+        document.write("Phalombe")
+    }
+    else if(name == "chitipa" || name == "Chitipa" || name == "CHITIPA"){
+        document.write("Chitipa")
+    }
+    else if(name == "mzuzu" || name == "Mzuzu" || name == "MZUZU"){
+        document.write("Mzuzu")
+    }
+    else if(name == "mzimba" || name == "Mzimba" || name == "MZIMBA"){
+        document.write("Mzimba")
+    }
+    else if(name == "nsanje" || name == "Nsanje" || name == "NSANJE"){
+        document.write("Nsanje")
+    }
+    else if(name == "nkhatabay" || name == "Nkhatabay" || name == "NKHATABAY"){
+        document.write("Nkhatabay")
+    }
+    else if(name == "chiradzuru" || name == "Chiradzuru" || name =="CHIRADZURU"){
+        document.write("Chiradzuru")
+    }
+    else if(name == ""){
+        alert("empty, please write something")
+    }
+    else if(name){
+        document.write("District not exists")
+    }
+    }
+</script>
+</html>
